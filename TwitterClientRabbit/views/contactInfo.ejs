@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TwitterSignup</title>
+	    <link rel="icon" type="image/png" href="./Images/title.png"/>
+<link rel='stylesheet' href='./stylesheets/style.css' />
+<link rel='stylesheet' href='./stylesheets/contactInfo.css' />
+</head>
+<body>
+	<div class="contact-wrapper">
+	<div class="StreamsHero-image"
+				style="height: 50px;background-image: url(https://abs.twimg.com/a/1457130698/img/t1/lohp_streams_header_bg_v4.png);">
+	<img class="Icon Icon--bird" src = "/Images/birdHome1.png" class="imageTwitter" style="display: inline-block; width: 20px; height: 21px;">
+	
+	</div>
+		<h1>Enter your phone</h1>
+		<p class="invite-landing-desc">Your phone number keeps your
+			account secure, connects you to friends and makes login easier.</p>
+		<form id="phx-signup-form" method="POST" action='/userName'
+			class='enterContactDetails'>
+			<div class="textbox">
+				<div class="prompt name">
+					<div class="field" data-fieldname="name">
+						<div id="choose-country" class="prompt choose-country">
+							<select id="device_country_code" class="t1-select"
+								name="device[country_code]">
+								<option data-iso-code="AF" value="93">Afghanistan</option>
+<option data-iso-code="AL" value="355">Albania</option>
+<option data-iso-code="DZ" value="213">Algeria</option>
+<option data-iso-code="AS" value="1">American Samoa</option>
+<option data-iso-code="AD" value="376">Andorra</option>
+<option data-iso-code="AO" value="244">Angola</option>
+<option data-iso-code="AI" value="1">Anguilla</option>
+<option data-iso-code="AG" value="1">Antigua & Barbuda</option>
+<option data-iso-code="AR" value="54">Argentina</option>
+<option data-iso-code="AM" value="374">Armenia</option>
+<option data-iso-code="AW" value="297">Aruba</option>
+<option data-iso-code="AU" value="61">Australia</option>
+<option data-iso-code="AT" value="43">Austria</option>
+<option data-iso-code="AZ" value="994">Azerbaijan</option>
+<option data-iso-code="BS" value="1">Bahamas</option>
+<option data-iso-code="BH" value="973">Bahrain</option>
+<option data-iso-code="BD" value="880">Bangladesh</option>
+<option data-iso-code="BB" value="1">Barbados</option>
+<option data-iso-code="BY" value="375">Belarus</option>
+<option data-iso-code="BE" value="32">Belgium</option>
+<option data-iso-code="BZ" value="501">Belize</option>
+<option data-iso-code="BJ" value="229">Benin</option>
+<option data-iso-code="BM" value="1">Bermuda</option>
+<option data-iso-code="BT" value="975">Bhutan</option>
+<option data-iso-code="BO" value="591">Bolivia</option>
+<option data-iso-code="BA" value="387">Bosnia & Herzegovina</option>
+<option data-iso-code="BW" value="267">Botswana</option>
+<option data-iso-code="BR" value="55">Brazil</option>
+<option data-iso-code="VG" value="1">British Virgin Islands</option>
+<option data-iso-code="BN" value="673">Brunei</option>
+<option data-iso-code="BG" value="359">Bulgaria</option>
+<option data-iso-code="BF" value="226">Burkina Faso</option>
+<option data-iso-code="BI" value="257">Burundi</option>
+<option data-iso-code="KH" value="855">Cambodia</option>
+<option data-iso-code="CM" value="237">Cameroon</option>
+<option data-iso-code="CA" value="1">Canada</option>
+<option data-iso-code="CV" value="238">Cape Verde</option>
+<option data-iso-code="BQ" value="599">Caribbean Netherlands</option>
+<option data-iso-code="KY" value="1">Cayman Islands</option>
+<option data-iso-code="CF" value="236">Central African Republic</option>
+<option data-iso-code="TD" value="235">Chad</option>
+<option data-iso-code="CL" value="56">Chile</option>
+<option data-iso-code="CN" value="86">China</option>
+<option data-iso-code="CC" value="61">Cocos (Keeling) Islands</option>
+<option data-iso-code="CO" value="57">Colombia</option>
+<option data-iso-code="KM" value="269">Comoros</option>
+<option data-iso-code="CG" value="242">Congo - Brazzaville</option>
+<option data-iso-code="CD" value="243">Congo - Kinshasa</option>
+<option data-iso-code="CK" value="682">Cook Islands</option>
+<option data-iso-code="CR" value="506">Costa Rica</option>
+<option data-iso-code="HR" value="385">Croatia</option>
+<option data-iso-code="CU" value="53">Cuba</option>
+<option data-iso-code="CW" value="599">Curaçao</option>
+<option data-iso-code="CY" value="357">Cyprus</option>
+<option data-iso-code="CZ" value="420">Czech Republic</option>
+<option data-iso-code="CI" value="225">Côte d’Ivoire</option>
+<option data-iso-code="DK" value="45">Denmark</option>
+<option data-iso-code="DJ" value="253">Djibouti</option>
+<option data-iso-code="DM" value="1">Dominica</option>
+<option data-iso-code="DO" value="1">Dominican Republic</option>
+<option data-iso-code="EC" value="593">Ecuador</option>
+<option data-iso-code="EG" value="20">Egypt</option>
+<option data-iso-code="SV" value="503">El Salvador</option>
+<option data-iso-code="GQ" value="240">Equatorial Guinea</option>
+<option data-iso-code="ER" value="291">Eritrea</option>
+<option data-iso-code="EE" value="372">Estonia</option>
+<option data-iso-code="ET" value="251">Ethiopia</option>
+<option data-iso-code="FK" value="500">Falkland Islands</option>
+<option data-iso-code="FO" value="298">Faroe Islands</option>
+<option data-iso-code="FJ" value="679">Fiji</option>
+<option data-iso-code="FI" value="358">Finland</option>
+<option data-iso-code="FR" value="33">France</option>
+<option data-iso-code="GF" value="594">French Guiana</option>
+<option data-iso-code="PF" value="689">French Polynesia</option>
+<option data-iso-code="GA" value="241">Gabon</option>
+<option data-iso-code="GM" value="220">Gambia</option>
+<option data-iso-code="GE" value="995">Georgia</option>
+<option data-iso-code="DE" value="49">Germany</option>
+<option data-iso-code="GH" value="233">Ghana</option>
+<option data-iso-code="GI" value="350">Gibraltar</option>
+<option data-iso-code="GR" value="30">Greece</option>
+<option data-iso-code="GL" value="299">Greenland</option>
+<option data-iso-code="GD" value="1">Grenada</option>
+<option data-iso-code="GP" value="590">Guadeloupe</option>
+<option data-iso-code="GU" value="1">Guam</option>
+<option data-iso-code="GT" value="502">Guatemala</option>
+<option data-iso-code="GG" value="44">Guernsey</option>
+<option data-iso-code="GN" value="224">Guinea</option>
+<option data-iso-code="GW" value="245">Guinea-Bissau</option>
+<option data-iso-code="GY" value="592">Guyana</option>
+<option data-iso-code="HT" value="509">Haiti</option>
+<option data-iso-code="HN" value="504">Honduras</option>
+<option data-iso-code="HK" value="852">Hong Kong SAR China</option>
+<option data-iso-code="HU" value="36">Hungary</option>
+<option data-iso-code="IS" value="354">Iceland</option>
+<option data-iso-code="IN" value="91">India</option>
+<option data-iso-code="ID" value="62">Indonesia</option>
+<option data-iso-code="" value="870">Inmarsat</option>
+<option data-iso-code="IR" value="98">Iran</option>
+<option data-iso-code="IQ" value="964">Iraq</option>
+<option data-iso-code="IE" value="353">Ireland</option>
+<option data-iso-code="" value="881">Iridium</option>
+<option data-iso-code="IM" value="44">Isle of Man</option>
+<option data-iso-code="IL" value="972">Israel</option>
+<option data-iso-code="IT" value="39">Italy</option>
+<option data-iso-code="JM" value="1">Jamaica</option>
+<option data-iso-code="JP" value="81">Japan</option>
+<option data-iso-code="JE" value="44">Jersey</option>
+<option data-iso-code="JO" value="962">Jordan</option>
+<option data-iso-code="KZ" value="7">Kazakhstan</option>
+<option data-iso-code="KE" value="254">Kenya</option>
+<option data-iso-code="KI" value="686">Kiribati</option>
+<option data-iso-code="XK" value="386">Kosovo</option>
+<option data-iso-code="KW" value="965">Kuwait</option>
+<option data-iso-code="KG" value="996">Kyrgyzstan</option>
+<option data-iso-code="LA" value="856">Laos</option>
+<option data-iso-code="LV" value="371">Latvia</option>
+<option data-iso-code="LB" value="961">Lebanon</option>
+<option data-iso-code="LS" value="266">Lesotho</option>
+<option data-iso-code="LR" value="231">Liberia</option>
+<option data-iso-code="LY" value="218">Libya</option>
+<option data-iso-code="LI" value="423">Liechtenstein</option>
+<option data-iso-code="LT" value="370">Lithuania</option>
+<option data-iso-code="LU" value="352">Luxembourg</option>
+<option data-iso-code="MO" value="853">Macau SAR China</option>
+<option data-iso-code="MK" value="389">Macedonia</option>
+<option data-iso-code="MG" value="261">Madagascar</option>
+<option data-iso-code="MW" value="265">Malawi</option>
+<option data-iso-code="MY" value="60">Malaysia</option>
+<option data-iso-code="MV" value="960">Maldives</option>
+<option data-iso-code="ML" value="223">Mali</option>
+<option data-iso-code="MT" value="356">Malta</option>
+<option data-iso-code="MQ" value="596">Martinique</option>
+<option data-iso-code="MR" value="222">Mauritania</option>
+<option data-iso-code="MU" value="230">Mauritius</option>
+<option data-iso-code="YT" value="262">Mayotte</option>
+<option data-iso-code="MX" value="52">Mexico</option>
+<option data-iso-code="FM" value="691">Micronesia</option>
+<option data-iso-code="MD" value="373">Moldova</option>
+<option data-iso-code="MC" value="377">Monaco</option>
+<option data-iso-code="MN" value="976">Mongolia</option>
+<option data-iso-code="ME" value="382">Montenegro</option>
+<option data-iso-code="MS" value="1">Montserrat</option>
+<option data-iso-code="MA" value="212">Morocco</option>
+<option data-iso-code="MZ" value="258">Mozambique</option>
+<option data-iso-code="MM" value="95">Myanmar (Burma)</option>
+<option data-iso-code="NA" value="264">Namibia</option>
+<option data-iso-code="NR" value="674">Nauru</option>
+<option data-iso-code="NP" value="977">Nepal</option>
+<option data-iso-code="NL" value="31">Netherlands</option>
+<option data-iso-code="NC" value="687">New Caledonia</option>
+<option data-iso-code="NZ" value="64">New Zealand</option>
+<option data-iso-code="NI" value="505">Nicaragua</option>
+<option data-iso-code="NE" value="227">Niger</option>
+<option data-iso-code="NG" value="234">Nigeria</option>
+<option data-iso-code="" value="0">Non-Geographic</option>
+<option data-iso-code="NF" value="672">Norfolk Island</option>
+<option data-iso-code="MP" value="1">Northern Mariana Islands</option>
+<option data-iso-code="NO" value="47">Norway</option>
+<option data-iso-code="OM" value="968">Oman</option>
+<option data-iso-code="PK" value="92">Pakistan</option>
+<option data-iso-code="PS" value="970">Palestinian Territories</option>
+<option data-iso-code="PA" value="507">Panama</option>
+<option data-iso-code="PG" value="675">Papua New Guinea</option>
+<option data-iso-code="PY" value="595">Paraguay</option>
+<option data-iso-code="PE" value="51">Peru</option>
+<option data-iso-code="PH" value="63">Philippines</option>
+<option data-iso-code="PL" value="48">Poland</option>
+<option data-iso-code="PT" value="351">Portugal</option>
+<option data-iso-code="PR" value="1">Puerto Rico</option>
+<option data-iso-code="QA" value="974">Qatar</option>
+<option data-iso-code="RO" value="40">Romania</option>
+<option data-iso-code="RU" value="7">Russia</option>
+<option data-iso-code="RW" value="250">Rwanda</option>
+<option data-iso-code="RE" value="262">Réunion</option>
+<option data-iso-code="WS" value="685">Samoa</option>
+<option data-iso-code="SM" value="378">San Marino</option>
+<option data-iso-code="SA" value="966">Saudi Arabia</option>
+<option data-iso-code="SN" value="221">Senegal</option>
+<option data-iso-code="RS" value="381">Serbia</option>
+<option data-iso-code="SC" value="248">Seychelles</option>
+<option data-iso-code="SL" value="232">Sierra Leone</option>
+<option data-iso-code="SG" value="65">Singapore</option>
+<option data-iso-code="SX" value="1">Sint Maarten</option>
+<option data-iso-code="SK" value="421">Slovakia</option>
+<option data-iso-code="SI" value="386">Slovenia</option>
+<option data-iso-code="SB" value="677">Solomon Islands</option>
+<option data-iso-code="SO" value="252">Somalia</option>
+<option data-iso-code="ZA" value="27">South Africa</option>
+<option data-iso-code="KR" value="82">South Korea</option>
+<option data-iso-code="SS" value="211">South Sudan</option>
+<option data-iso-code="ES" value="34">Spain</option>
+<option data-iso-code="LK" value="94">Sri Lanka</option>
+<option data-iso-code="KN" value="1">St. Kitts & Nevis</option>
+<option data-iso-code="LC" value="1">St. Lucia</option>
+<option data-iso-code="MF" value="590">St. Martin</option>
+<option data-iso-code="VC" value="1">St. Vincent & Grenadines</option>
+<option data-iso-code="SR" value="597">Suriname</option>
+<option data-iso-code="SZ" value="268">Swaziland</option>
+<option data-iso-code="SE" value="46">Sweden</option>
+<option data-iso-code="CH" value="41">Switzerland</option>
+<option data-iso-code="ST" value="239">São Tomé & Príncipe</option>
+<option data-iso-code="TW" value="886">Taiwan</option>
+<option data-iso-code="TJ" value="992">Tajikistan</option>
+<option data-iso-code="TZ" value="255">Tanzania</option>
+<option data-iso-code="TH" value="66">Thailand</option>
+<option data-iso-code="" value="882">Thuraya</option>
+<option data-iso-code="TL" value="670">Timor-Leste</option>
+<option data-iso-code="TG" value="228">Togo</option>
+<option data-iso-code="TO" value="676">Tonga</option>
+<option data-iso-code="TT" value="1">Trinidad & Tobago</option>
+<option data-iso-code="TN" value="216">Tunisia</option>
+<option data-iso-code="TR" value="90">Turkey</option>
+<option data-iso-code="TM" value="993">Turkmenistan</option>
+<option data-iso-code="TC" value="1">Turks & Caicos Islands</option>
+<option data-iso-code="VI" value="1">U.S. Virgin Islands</option>
+<option data-iso-code="UG" value="256">Uganda</option>
+<option data-iso-code="UA" value="380">Ukraine</option>
+<option data-iso-code="AE" value="971">United Arab Emirates</option>
+<option data-iso-code="GB" value="44">United Kingdom</option>
+<option data-iso-code="US" value="1">United States</option>
+<option data-iso-code="UY" value="598">Uruguay</option>
+<option data-iso-code="UZ" value="998">Uzbekistan</option>
+<option data-iso-code="VU" value="678">Vanuatu</option>
+<option data-iso-code="VE" value="58">Venezuela</option>
+<option data-iso-code="VN" value="84">Vietnam</option>
+<option data-iso-code="YE" value="967">Yemen</option>
+<option data-iso-code="ZM" value="260">Zambia</option>
+<option data-iso-code="ZW" value="263">Zimbabwe</option>
+<option data-iso-code="AX" value="358">Åland Islands</option>
+
+							</select>
+						</div>
+						<br /> <br /> <input name="contactInfo" id="contactInfo" class="" type="number"
+							placeholder="Phone" aria-required="true" maxlength="20"
+							 value="" autocomplete="off"><br /> <br />
+						<div class="sign-up-box">
+							<button id="submit_button" class="submit button signup"
+								name="submit">Next</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="befound">
+			<p>We will text a verification code to this number. Standard SMS
+				fees may apply. We will never display your phone number to other
+				Twitter users.</p>
+		</div>
+		<div class="skip-format">
+	<a href="/userName" >Skip </a>
+	</div>
+	<p style="color:red;"><b><%= typeof errorMessage!='undefined' ? errorMessage+"" : '' %></b></p>
+	</div>
+	
+</body>
+</html>

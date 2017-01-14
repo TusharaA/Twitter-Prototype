@@ -1,0 +1,54 @@
+.signin-wrapper, .signup-wrapper {
+    margin: 0 auto 10px;
+}
+.signin-wrapper, .signup-wrapper, .resend-password-wrapper, .mobile-complete-wrapper {
+    clear: both;
+    display: block;
+    width: 400px;
+}
+.signin-wrapper h1, .signup-wrapper h1, .resend-password-wrapper h1, .mobile-complete-wrapper h1 {
+    clear: both;
+    padding: 40px 0 20px;
+}
+#phx-signup-form .textbox .field input {
+    font-size: 18px;
+    padding: 10px;
+    width: 372px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #8899a6;
+    opacity: 1;
+}
+.sign-up-box .signup {
+    background-color: #59baff;
+    background-image: linear-gradient(#59baff, #2477b2);
+    background-repeat: repeat-x;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 7px 0;
+    width: 392px;
+}
+.StreamsHero-image {
+	background-position: center center;
+	background-size: 100%;
+	position: absolute;
+  top: 0;
+  left: 0;
+}	
+.StreamsHero, .StreamsHero-image {
+	height: 300px;
+	width: 100%;
+}
+.StreamsHero-image {
+	background-position: center center;
+	background-size: 100% auto;
+
+}
+.StreamsHero-buttonContainer .Button {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px 35px;
+}

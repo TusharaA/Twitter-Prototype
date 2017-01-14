@@ -1,0 +1,78 @@
+.StreamsHero-image {
+	background-position: center center;
+	background-size: 100%;
+	width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.StreamsHero-blurb {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 28px;
+	opacity: 0.7;
+	transition: opacity 300ms linear 0s;
+}
+.StreamsHero-content {
+	text-align: center;
+}
+.StreamsHero-header {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 200;
+	line-height: 48px;
+	margin-bottom: -5px;
+}
+.StreamsTopBar .StreamsHero, .StreamsTopBar .StreamsHero-image {
+	height: 130px;
+	transition: height 300ms linear 0s;
+}
+.StreamsHero, .StreamsHero-image {
+	height: 300px;
+	width: 100%;
+}
+.StreamsHero-image {
+	background-position: center center;
+	background-size: 100% auto;
+}
+.StreamsHero-buttonContainer .Button {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px 35px;
+	float: right;	
+}
+.StreamsHero-buttonContainer .Button.StreamsLogin {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    border: 1px solid transparent;
+}
+.StreamsHero-buttonContainer .Button.StreamsLogin.Log {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.StreamsHero-buttonContainer .Button.StreamsLogin.Sign {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
+.StreamsCategoryBar-itemName {
+	box-sizing: border-box;
+	color: #1da1f2;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 200;
+	height: 60px;
+	padding: 21px 35px;
+	white-space: nowrap;
+}
+
+.Icon--bird {
+    color: #fff;
+    font-size: 30px;
+    transition: top 300ms linear 0s;
+    float: left;
+    
+}

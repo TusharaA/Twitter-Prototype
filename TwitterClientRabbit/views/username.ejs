@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TwitterSignup</title>
+	    <link rel="icon" type="image/png" href="./Images/title.png"/>
+<link rel='stylesheet' href='./stylesheets/style.css' />
+<link rel='stylesheet' href='./stylesheets/userName.css' />
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<!-- Loading the AngularJS file from /public/angularJS folder -->
+<script src="angularjs/twitterStart.js"></script>
+<script src="angularjs/signupController.js"></script>
+
+</head>
+<body ng-app="twitter" ng-controller="signupCtrl">
+	<div class="signup-wrapper">
+	<div class="StreamsHero-image"
+				style="height: 50px;background-image: url(https://abs.twimg.com/a/1457130698/img/t1/lohp_streams_header_bg_v4.png);">
+	<img class="Icon Icon--bird" src = "/Images/birdHome1.png" class="imageTwitter" style="display: inline-block; width: 20px; height: 21px;">
+	
+	</div>
+		<h1>Choose a username</h1>
+		<p class="invite-landing-desc">Don't worry, you can always change
+			it later.</p>
+			<div class="textbox">
+				<div class="prompt name">
+					<div class="field" data-fieldname="name">
+						<input id="username" class="" type="text" placeholder="Username" ng-model="username"
+							aria-required="true" maxlength="20" name="username" value=""
+							autocomplete="off" title="Accepts only letters/numbers/underscore" pattern="^[A-Za-z0-9_]+$"><br /> <br />
+						<div class="sign-up-box">
+							<button id="submit_button" class="submit button signup"
+								name="submit" ng-click="submit();">Next</button>
+						</div>
+					</div>
+				</div>
+			</div>
+<br><br>
+		
+	<div class="alert alert-danger" ng-hide="empty_userName">
+						<strong>Field cannot be empty</strong>
+						</div>
+	<div class="alert alert-danger" ng-hide="existing_userName">
+						<strong>UserName already exists</strong>
+					</div>
+	</div>
+	
+</body>
+</html>

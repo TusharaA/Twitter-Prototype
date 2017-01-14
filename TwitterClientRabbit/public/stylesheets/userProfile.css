@@ -1,0 +1,135 @@
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    .imageTwitter
+    {
+    left: 50%;
+    position:absolute;
+    }
+
+
+
+h3 {
+    color: #66757f;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    text-rendering: optimizelegibility;
+    margin: 0;
+}
+
+
+
+.ProfileCanopy-header {
+    background-color: #63aeee;
+    max-width: 2560px;
+    position: relative;
+    z-index: 3;
+}
+ .ProfileCanopy-header {
+    height: 175px;
+    transition: height 0.3s ease 0s;
+}
+.ProfileCanopy-card {
+    box-sizing: border-box;
+    height: 60px;
+    margin-right: -10px;
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: padding-top 0.3s ease 0s;
+}
+.ProfileCanopy-nav .ProfileNav {
+    margin-bottom: -1px;
+}
+.ProfileNav {
+    height: 60px;
+    position: relative;
+}
+ol, ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.ProfileNav-item {
+    display: inline-block;
+}
+.u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus {
+    border-color: #0084b4 !important;
+}
+.u-textUserColor, .u-textUserColorHover:hover, .u-textUserColorHover:focus {
+    color: #0084b4 !important;
+}
+.ProfileNav-stat {
+    border-bottom: 0 solid;
+    box-sizing: border-box;
+    display: block;
+    height: 5px;
+    line-height: 1;
+    padding: 5px 5px 5px;
+    transition: all 0.15s ease-in-out 0s;
+}
+.ProfileCardStats {
+    margin-left: 11px;
+    padding: 10px 0;
+}
+.Arrange--equal {
+    table-layout: fixed;
+}
+.Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+}
+ol, ul {
+    list-style: outside none none;
+}
+.Arrange-sizeFit {
+    vertical-align: bottom;
+     width: 1%;
+     display: table-cell;
+    padding: 0;
+}
+.ProfileAvatar {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15);
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+.u-block {
+    display: block !important;
+}
+a {
+    background: transparent none repeat scroll 0 0;
+}	
+.u-bgUserColor, .u-bgUserColorHover:hover, .u-bgUserColorHover:focus {
+    background-color: #0084b4 !important;
+}
+.ProfileAvatar-image, .ProfileAvatar-placeholderImage {
+    -moz-force-broken-image-icon: 1;
+    border-radius: 8px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+img {
+    border: 0 none;
+}
+
+.ProfileSidebar .ProfileHeaderCard, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail {
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
